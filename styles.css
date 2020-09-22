@@ -266,7 +266,7 @@ nav {
 
 .btn {
     margin: 0 9px;
-    background: rgba(3, 155, 155);
+    background: rgb(206, 216, 216);
     border-radius: 2rem;
     color: #a01c1c;
     display: inline-block;
@@ -299,15 +299,17 @@ nav {
 
 .about {
     width: 100%;
-    min-height: 100vh;
+    min-height: 50vh;
     max-width: 70rem;
     margin: auto;
+    text-align: center;
 }
 
 .about .container {
     display: flex;
     align-items: center;
     min-height: 80vh;
+    text-align: left;
 }
 
 .about-img img {
@@ -344,15 +346,16 @@ hr {
 }
 
 
-/* services */
+/* interests */
 
-.services {
+.interests {
     padding: 0;
-    height: 110rem;
+    height: 130rem;
     padding: 3rem 0;
     min-height: 100vh;
     max-width: 90rem;
     margin: auto;
+    text-align: center;
 }
 
 .title-heading {
@@ -372,13 +375,15 @@ hr {
     margin-bottom: 5rem;
 }
 
-.service-tiers {
+.interest-tiers {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-template-rows: auto;
+    grid-template-columns: auto;
     gap: 2.5rem;
 }
 
 .tier-item {
+    text-align: left;
     padding: 3rem;
     position: relative;
     display: flex;
@@ -388,6 +393,7 @@ hr {
 }
 
 .tier-item h1 {
+    text-align: center;
     font-size: 2rem;
     margin: 2rem 0;
     background: linear-gradient( to right, rgba(249, 105, 14, 1) 0%, rgba(102, 51, 153, 1) 100%);
@@ -412,8 +418,9 @@ hr {
 }
 
 .projects {
+    text-align: center;
     padding: 0;
-    height: 150rem;
+    height: 170rem;
     padding: 3rem 0;
     min-height: 100vh;
     max-width: 70rem;
@@ -421,6 +428,7 @@ hr {
 }
 
 .project-item {
+    text-align: left;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -491,7 +499,7 @@ hr {
 
 .contact {
     width: 100%;
-    min-height: 50vh;
+    min-height: 20vh;
     max-width: 70rem;
     margin: auto;
 }
@@ -566,7 +574,7 @@ footer a {
     .title-heading {
         margin: 0;
     }
-    .service-tiers {
+    .interest-tiers {
         gap: 0rem;
     }
     .project-item {
